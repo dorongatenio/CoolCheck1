@@ -3,7 +3,7 @@ function login() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
     if (username === "Telem" && password === "1234") {
-        window.location.href = "http://localhost:64152/LandingPage.html"; // redirect to landing page
+        window.location.href = "./LandingPage.html" // redirect to landing page
        /* document.getElementById("message").innerHTML = "Login successful";*/
         // redirect to the desired page
     } else {
